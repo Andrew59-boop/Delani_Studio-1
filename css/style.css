@@ -40,5 +40,7 @@ body{
 .what_we_do{
     text-align: center;
 }
+.what_we_do p{
+    display: none;
+}
 
-.
