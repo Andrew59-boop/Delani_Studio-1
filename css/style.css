@@ -29,6 +29,9 @@ body{
     padding-bottom: 50px;
     background-size: 1650px;
 }
+.what_we_do p{
+    display: none;
+}
 .services p{
     font-size: 15px;
     color: white;
