@@ -40,17 +40,42 @@ body{
 .what_we_do{
     text-align: center;
 }
-.image{
-    float: left;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-.images{
-    float: left;
-    padding-left: 20px;
-   
+.col-md-3{
+    padding-bottom: 30px;
 }
 .portfolio h2{
     text-align: center;
 }
+.contact{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../backgrounds/c_image.jpg);
+    background-size: 1100px;
+}
+.social{
+    text-align: center;
+}
+.social a{
+    padding-left: 20px;
+}
+.name{
+    width: 350px;
+    background-color: transparent;
+}
+.email{
+    width: 350px;
+    background-color: transparent;
+}
+.message{
+    width: 700px;
+    height: 200px;
+    background-color: transparent;
+    padding-bottom: 160px;
+}
+.contact button{
+    height: 50px;
+    width: 350px;
+    background-color: transparent;
+}
+
 
