@@ -3,7 +3,6 @@ $("document").ready(function(){
         var name=$(".name").val();
         var email=$(".email").val();
         var message=$(".message").val();
-        event.reset()
 alert("thank you "+name );
 alert("Your message has been sent");
     });
