@@ -4,8 +4,7 @@ $("document").ready(function(){
         var email=$(".email").val();
         var message=$(".message").val();
 alert("thank you "+name );
-
-alert("Your message has been recieved");
+alert("Your message has been sent");
     });
 
     $(".portfolio1").hover(function(){
