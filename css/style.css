@@ -92,5 +92,8 @@ input[type=submit]{
     background-color: transparent;
     color: gray;
 }
+::placeholder{
+    color: wheat;
+}
 
 
