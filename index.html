@@ -7,13 +7,15 @@
         <meta title="viewboard" content="width=device-width initial-scale=1">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="java/script.js"></script>
     </head>
     <body>
         <div class="container">
             <div class="logo">
                 <p><img src="logo/logo.png"><br><h2>WELCOME<br>TO  DELANI STUDIO</h2>AMAZING PEOPLE ARE MAKING AMAZING
                 DESIGNS IN A FUN ENVIRONMENT.</p>
-                <br><br><br><br>
+                <br><br><br><br><br>
                 <a href="#mouse"><img src="mouse_click.png"></a>
             </div>
             <div id="mouse">
@@ -35,36 +37,36 @@
                 <h2>WHAT WE DO</h2>
                 <br><br>
                 <div class="row">
-                 <div class="col-md-4"><img src="services_icons/design_icon.png"><h4>DESIGN</h4><p>Our design offers a full range of services including brand strategy,interaction and visual design and user experience testing.<br>
+                 <div class="col-md-4"><img src="services_icons/design_icon.png" class="design"><br><h4>DESIGN</h4><p id="design">Our design offers a full range of services including brand strategy,interaction and visual design and user experience testing.<br>
                     Throughout your project,our designers create and implement visual design and workflows,solicit user feedback and work with you to make<br>sure what gets built what is 
                     need.</p></div>
-                <div class="col-md-4"><img src="services_icons/dev_icon.png"><h4>DEVELOPMENT</h4><br><p>All engineers are fluent in the latest enterprise,mobile and web development technlogies<br>
+                <div class="col-md-4"><img src="services_icons/dev_icon.png"class="development"><br><h4>DEVELOPMENT</h4><br><p id="development">All engineers are fluent in the latest enterprise,mobile and web development technlogies<br>
                 they collaborate with your team to write and improve code on the daily basis,using proven such as test driven development and pair<br>programming</p></div>
-                <div class="col-md-4"><img src="services_icons/product_icon.png"><h4>PRODUCT MANAGEMENT</h4><br><p>Planning and development is iterative.Because we are constantly coding and testing,the product we build are always ready to go live.<br>
+                <div class="col-md-4"><img src="services_icons/product_icon.png" class="product"><br><h4>PRODUCT MANAGEMENT</h4><br><p id="product">Planning and development is iterative.Because we are constantly coding and testing,the product we build are always ready to go live.<br>
                     This iterative process allows for changes as business requirements evolve</p></div>
                  </div>
             </div>
             <div class="portfolio">
                 <h2>PORTFOLIO</h2>
                 <div class="row">
-                <div class="col-md-3"><img src="portfolio/work4.jpg"width="250px"></div>
-                <div class="col-md-3"><img src="portfolio/work3.jpg" width="250px"></div>
-                <div class="col-md-3"><img src="portfolio/work2.jpg" width="250px"></div>
-                <div class="col-md-3"><img src="portfolio/work1.jpg" width="250px"></div>
+                <div class="col-md-3 portfolio1"><img src="portfolio/work4.jpg"width="250px"><div class="carousel-caption 1">Total-dark</div></div>
+                <div class="col-md-3 portfolio2"><img src="portfolio/work3.jpg" width="250px"><div class="carousel-caption 2">Mighty-security</div></div>
+                <div class="col-md-3 portfolio3"><img src="portfolio/work2.jpg" width="250px"><div class="carousel-caption 3">Landscape</div></div>
+                <div class="col-md-3 portfolio4"><img src="portfolio/work1.jpg" width="250px"><div class="carousel-caption 4">Celebrites</div></div>
                 <br><br>
-                <div class="col-md-3"><img src="portfolio/work5.jpg" width="250px"></div>
-                <div class="col-md-3"><img src="portfolio/work6.jpg" width="250px"></div>
-                <div class="col-md-3"><img src="portfolio/work7.jpg" width="250px"></div>
-                <div class="col-md-3"><img src="portfolio/work8.jpg" width="250px"></div>
+                <div class="col-md-3 portfolio5"><img src="portfolio/work5.jpg" width="250px"><div class="carousel-caption 5">Good-day</div></div>
+                <div class="col-md-3 portfolio6 "><img src="portfolio/work6.jpg" width="250px"><div class="carousel-caption 6">switch-up</div></div>
+                <div class="col-md-3  portfolio7"><img src="portfolio/work7.jpg" width="250px"><div class="carousel-caption 7">burnt logo</div></div>
+                <div class="col-md-3 portfolio8"><img src="portfolio/work8.jpg" width="250px"><div class="carousel-caption 8">Restaurant</div></div>
                 </div>
             </div>
             <div class="contact">
                 <h2>CONTACT US</h2>
-                <form>
+                <form id="form">
                     <input type="text" placeholder="Name..." class="name" required>
                     <input type="text" placeholder="Email...." class="email" required><br><br>
                     <input type="text" placeholder="Message...." class="message" required><br><br>
-                    <button type="submit">Submit</button>
+                    <input type="submit">
                     <br><br>
                 </form>
             </div>

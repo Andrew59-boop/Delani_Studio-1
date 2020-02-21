@@ -8,7 +8,7 @@ body{
     text-align: center;
     padding-top: 180px;
     background-size: 1100px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-repeat: no-repeat;
     background-position:center;  
 }
@@ -80,5 +80,14 @@ body{
     width: 350px;
     background-color: transparent;
 }
-
+.carousel-caption{
+    display: none;
+    color: tomato;
+}
+input[type=submit]{
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    color: gray;
+}
 
