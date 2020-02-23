@@ -3,8 +3,7 @@ $("document").ready(function(){
         var name=$(".name").val();
         var email=$(".email").val();
         var message=$(".message").val();
-alert("thank you "+name );
-alert("Your message has been sent");
+alert("Your message has been sent,Thank you very much "+name)
     });
 
     $(".portfolio1").hover(function(){
