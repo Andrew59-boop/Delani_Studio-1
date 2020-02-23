@@ -84,7 +84,7 @@ body{
 .carousel-caption{
     display: none;
     opacity: 5.6;
-    background-color:gray
+    background-color:gray;
 }
 input[type=submit]{
     height: 40px;
